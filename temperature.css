@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 50px;
+}
+
+header h1 {
+    color: #0d6efd;
+}
+
+.converter {
+    margin-top: 40px;
+}
+
+#tempInput {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#unitInput {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#convertBtn {
+    padding: 10px 20px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#convertBtn:hover {
+    background: #084298;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
