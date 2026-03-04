@@ -1,44 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Tribute to Dr. A.P.J. Abdul Kalam</title>
-    <link rel="stylesheet" href="tribute.css">
-</head>
-<body>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
 
-<div class="container">
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background: white;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
 
-    <h1>Dr. A.P.J. Abdul Kalam</h1>
-    <h3>The Missile Man of India</h3>
+h1 {
+    font-size: 36px;
+    color: #0d6efd;
+}
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/APJ_Abdul_Kalam.jpg" alt="Dr. A.P.J. Abdul Kalam">
+h3 {
+    font-style: italic;
+    color: #555;
+}
 
-    <section>
-        <h2>About Him</h2>
-        <p>
-            Dr. A.P.J. Abdul Kalam was the 11th President of India and one of the most respected scientists in the country.
-            He played a key role in India's missile development programs and earned the title "Missile Man of India."
-        </p>
+img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
 
-        <p>
-            He was known for his humility, dedication, and love for students. He inspired millions of young people
-            to dream big and work hard to achieve success.
-        </p>
-    </section>
+section {
+    margin-top: 30px;
+    text-align: justify;
+}
 
-    <section>
-        <h2>Why I Admire Him</h2>
-        <p>
-            I admire Dr. Kalam for his simplicity and dedication to the nation. Despite achieving great success,
-            he remained humble and always motivated students to focus on education and innovation.
-        </p>
-    </section>
-
-    <footer>
-        <p>Created by Avishkar Mahadev Ghorpade | Oasis Infobyte Internship</p>
-    </footer>
-
-</div>
-
-</body>
-</html>
+footer {
+    margin-top: 30px;
+    font-weight: bold;
+}
